@@ -1,0 +1,9 @@
+UART0
+    - GND
+    - RX : PE0
+    - TX : PE1
+
+printf/
+        new file:   main.c
+        new file:   printf.cwp
+        new file:   printf.prj
