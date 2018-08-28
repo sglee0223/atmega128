@@ -1,0 +1,11 @@
+Button
+    - PORTE.7
+    - INT7
+    - falling edge
+LED
+    - PORTA.0
+
+gpio_intr/
+        new file:   gpio_intr.cwp
+        new file:   gpio_intr.prj
+        new file:   main.c
