@@ -1,0 +1,14 @@
+LED : PORTA.0
+
+Timer0
+    - Clock Source : System Clock
+    - Clock Value : 16000 kHz
+    - Mode : Normal Mode=0xFF
+    - Overflow Interrupt : check
+    - Timer Value : 6
+    - 64 prescaler
+
+timer_overflow_intr_1ms/
+        new file:   main.c
+        new file:   timer_overflow_intr_1ms.prj
+        
