@@ -1,6 +1,5 @@
 PORTA.0
 
 blink_led/
-        new file:   blink_led.cwp
         new file:   blink_led.prj
         new file:   main.c
