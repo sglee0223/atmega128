@@ -5,5 +5,4 @@ UART0
 
 printf/
         new file:   main.c
-        new file:   printf.cwp
         new file:   printf.prj
