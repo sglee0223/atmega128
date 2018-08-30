@@ -1,0 +1,16 @@
+init pwm_led
+
+- Clock Source : System Clock
+- Clock Value : 250.000 kHz
+- Mode : Fast PWM top=ICR1
+- Out A : Inverted
+    connect with PORTB.5 Gpio
+- Inp. Capture : f9
+    f9 = 249
+    250000 Hz / 250 = 1kHz = 1ms
+- Comp A : 7c
+
+pwm_led/
+        new file:   main.c
+        new file:   pwm_led.prj
+        
