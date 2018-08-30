@@ -1,0 +1,13 @@
+LED : PORTA.0
+
+Timer0
+    - Clock Source : System Clock
+    - Clock Value : 16000 kHz
+    - Mode : CTC top=0CR0
+    - check Compare Match Interrupt
+    - Compare : f9
+    - 64 prescaler
+
+timer_compare_intr_1ms/
+        new file:   main.c
+        new file:   timer_compare_intr_1ms.prj
