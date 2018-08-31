@@ -97,8 +97,6 @@ unsigned char WriteData(unsigned char u8addr, unsigned char *u8data, unsigned ch
 
 unsigned char ReadData(unsigned char u8addr, unsigned char u8reg, unsigned char *u8data)
 {
-    // not tested yet
-    
     TWIStart();
     if (TWIGetStatus() != 0x08)
         return 0;
@@ -118,13 +116,19 @@ unsigned char ReadData(unsigned char u8addr, unsigned char u8reg, unsigned char 
     TWIWrite(u8addr|0x01);
     if (TWIGetStatus() != 0x40)
         return 0;
+                  
+    *u8data = TWIReadACK();
+    if (TWIGetStatus() != 0x50)
+        return 0; 
 
-    *u8data = TWIReadNACK();
+    TWIReadNACK();
     if (TWIGetStatus() != 0x58)
         return 0;
 
     TWIStop();
-
+    
+    delay_us(1);
+    
     return 1;
 }
 
