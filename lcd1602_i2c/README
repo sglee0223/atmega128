@@ -1,0 +1,12 @@
+PORTE.0 : UART RXD0
+PORTE.1 : UART TXD0
+PORTD.0 : TWI Serial Clock
+PORTD.1 : TWI Serial Data
+
+lcd1602_i2c/
+        new file:   lcd1602.c
+        new file:   lcd1602.h
+        new file:   lcd1602_i2c.prj
+        new file:   main.c
+        new file:   myI2C.c
+        new file:   myI2C.h
