@@ -1,0 +1,7 @@
+Flexible Numeric Display
+
+4-digit_7-segment_display/
+        new file:   4-digit_7-segment_display.prj
+        new file:   main.c
+        new file:   myMCU.c
+        new file:   myMCU.h
