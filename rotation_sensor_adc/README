@@ -1,0 +1,14 @@
+PORTE.0 : UART RXD0
+PORTE.1 : UART TXD0
+
+PORTF.0 : ADC0
+
+rotation_sensor_adc/
+        new file:   main.c
+        new file:   myADC.c
+        new file:   myADC.h
+        new file:   myMCU.c
+        new file:   myMCU.h
+        new file:   myUART.c
+        new file:   myUART.h
+        new file:   rotation_sensor_adc.prj
