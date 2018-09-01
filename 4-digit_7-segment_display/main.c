@@ -33,7 +33,7 @@ void main(void)
 /*
     PORTA 
     7bit ~ 0bit
-    d1 / A / B / C / D / E / F / G
+    d1 / G / F / E / D / C / B / A
                 
      _      a
     | |   f   b
