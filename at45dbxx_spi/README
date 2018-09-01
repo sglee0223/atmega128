@@ -1,0 +1,19 @@
+PORTE.0 : UART RXD0
+PORTE.1 : UART TXD0
+
+PORTB.0 : SS
+PORTB.1 : SCK
+PORTB.2 : MOSI
+PORTB.3 : MISO
+
+at45dbxx_spi/
+        new file:   at45dbxx.c
+        new file:   at45dbxx.h
+        new file:   at45dbxx_spi.prj
+        new file:   main.c
+        new file:   myMCU.c
+        new file:   myMCU.h
+        new file:   mySPI.c
+        new file:   mySPI.h
+        new file:   myUART.c
+        new file:   myUART.h
